@@ -6,3 +6,4 @@ remappings = ["@chainlink/contracts/=lib/chainlink-brownie-contracts/contracts/"
 fs_permissions = [{ access = "read", path = "./broadcast" }]
 # remappings here are used to resolve imports in the contracts. 
 # See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
+# fs permissions are used to allow the container to read the broadcast folder
